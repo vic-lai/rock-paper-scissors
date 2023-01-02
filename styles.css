@@ -1,0 +1,41 @@
+img {
+    width:100%;  
+    transition: .7s;
+    max-width:150px;
+    height:150px;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    transform: rotate(25deg);
+    height:200px;
+    max-width:200px;
+    width:200px;
+}
+
+#choices, #score {
+    display:flex;
+    justify-content:space-evenly;
+    border:5px solid red;
+}
+
+body {
+    background-color:black;
+}
+
+h1,p {
+    color:white;
+}
+
+h1 {
+    text-align:center;
+}
+
+.subtext {
+    text-align:center;
+}
+
+#choiceMade {
+    font-size:20px;
+    justify-content:space-evenly;
+    display:flex;
+}

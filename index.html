@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors</h1>
+    <div id="score">
+        <p id="yourScore">You:0</p>
+        <p id="computerScore">Computer:0</p>
+    </div>
+    <div id="choices">
+        <div class="choice">
+            <img id ="rock" src="../images/rock.png">
+            <p class="subtext">Rock</p>;
+        </div>
+        <div class="choice">
+            <img id = "paper" src="../images/paper.png">
+            <p class="subtext">Paper</p>;
+        </div>
+        <div>
+            <img id = "scissors" src="../images/scissors.png">
+            <p class="subtext">Scissors</p>;
+        </div>
+    </div>
+    <div id="choiceMade">
+        <p id="yourChoice">You chose:</p>
+        <p id="computerChoice">Computer chose:</p>
+    </div>
 </body>
 </html>
