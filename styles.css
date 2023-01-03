@@ -15,11 +15,13 @@ img {
 #choices, #score {
     display:flex;
     justify-content:space-evenly;
-    border:5px solid red;
+    margin-bottom:50px;
+    font-size:20px;
 }
 
 body {
-    background-color:black;
+    background-color:#2F4F4F;
+    font-family:'Roboto';
 }
 
 h1,p {
@@ -38,4 +40,10 @@ h1 {
     font-size:20px;
     justify-content:space-evenly;
     display:flex;
+}
+
+#end {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
 }

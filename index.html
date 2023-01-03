@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300&display=swap');
+    </style>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
+    <h1>First to five!</h1>
     <div id="score">
         <p id="yourScore">You:0</p>
         <p id="computerScore">Computer:0</p>
@@ -17,20 +21,23 @@
     <div id="choices">
         <div class="choice">
             <img id ="rock" src="../images/rock.png">
-            <p class="subtext">Rock</p>;
+            <p class="subtext">Rock</p>
         </div>
         <div class="choice">
             <img id = "paper" src="../images/paper.png">
-            <p class="subtext">Paper</p>;
+            <p class="subtext">Paper</p>
         </div>
         <div>
             <img id = "scissors" src="../images/scissors.png">
-            <p class="subtext">Scissors</p>;
+            <p class="subtext">Scissors</p>
         </div>
     </div>
     <div id="choiceMade">
-        <p id="yourChoice">You chose:</p>
-        <p id="computerChoice">Computer chose:</p>
+        <p>You chose:</p>
+        <img id ="yourChoice" src="../images/questionmark.png">
+        <p>Computer chose:</p>
+        <img id="computerChoice" src="../images/questionmark.png">
     </div>
+    <div id="end"></div>
 </body>
 </html>
