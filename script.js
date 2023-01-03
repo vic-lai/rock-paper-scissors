@@ -93,7 +93,7 @@ rock.addEventListener("click", () => {
         }
         yourScoreText.textContent = "You: " + yourScore;
         computerScoreText.textContent = "Computer: " + computerScore;
-        document.getElementById("yourChoice").src="../images/rock.png";
+        document.getElementById("yourChoice").src="./images/rock.png";
         let computerChoicePath= "../images/"+computerChoice+".png";
         document.getElementById("computerChoice").src=computerChoicePath;
         if(yourScore==5) {
@@ -118,7 +118,7 @@ paper.addEventListener("click", () => {
         }
         yourScoreText.textContent = "You: " + yourScore;
         computerScoreText.textContent = "Computer: " + computerScore;
-        document.getElementById("yourChoice").src="../images/paper.png";
+        document.getElementById("yourChoice").src="./images/paper.png";
         let computerChoicePath= "../images/"+computerChoice+".png";
         document.getElementById("computerChoice").src=computerChoicePath;
         if(yourScore==5) {
@@ -143,7 +143,7 @@ scissors.addEventListener("click", () => {
         }
         yourScoreText.textContent = "You: " + yourScore;
         computerScoreText.textContent = "Computer: " + computerScore;
-        document.getElementById("yourChoice").src="../images/scissors.png";
+        document.getElementById("yourChoice").src="./images/scissors.png";
         let computerChoicePath= "../images/"+computerChoice+".png";
         document.getElementById("computerChoice").src=computerChoicePath;
         if(yourScore==5) {
