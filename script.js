@@ -73,6 +73,8 @@ function endGame(winner) {
         computerScore=0;
         yourScoreText.textContent = "You: " + yourScore;
         computerScoreText.textContent = "Computer: " + computerScore;
+        document.getElementById("yourChoice").src="./images/questionmark.png";
+        document.getElementById("computerChoice").src="./images/questionmark.png";
         h1.remove();
         button.remove();
     })
